@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricbuzz</title>
+    <style>
+        .Square{
+            height: 150px ;
+            width: 150px;
+        }
+        .Circle {
+            height: 150px ;
+            width: 150px; 
+            border-radius: 50%;
+        }
+        .cont{
+            display: flex;
+            justify-content: space-around;
+            gap: 10px ;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="util">
+        <input id="num" placeholder="Enter the number" type="number">
+        <input id="color" placeholder="Enter the color" type="color">
+        <select name="shape" id="shape">
+            <option class="Circle" > Circle </option>
+            <option class="Square" > Square </option>
+        </select>
+        <button id="addbtn"> Add </button>
+    </div>
+
+    <div class="cont"> </div>
+    <script src="script.js"></script>
+</body>
+</html>
